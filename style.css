@@ -5,13 +5,13 @@
 
 body {
   margin: 0;
-  font-family: "Quicksand", sans-serif; }
+  font-family: 'Quicksand', sans-serif; }
 
 h1 {
-  font-family: "Raleway", cursive; }
+  font-family: 'Raleway', cursive; }
 
 h2 {
-  font-family: "Raleway", cursive;
+  font-family: 'Raleway', cursive;
   font-size: 2em;
   -webkit-margin-before: 0.67em;
   -webkit-margin-after: 0.67em;
@@ -151,13 +151,14 @@ header nav ul {
   position: relative;
   margin: 225px 0;
   background: rgba(0, 0, 0, 0.5);
-  font-family: "Raleway", cursive; }
+  font-family: 'Raleway', cursive; }
 
 .slogan h1 {
   color: #FFF;
   margin: 0;
   padding: 10px 20px;
   font-size: 46px; }
+
 .slogan p {
   color: #FFF;
   margin: 0;
@@ -175,8 +176,10 @@ header nav ul {
 #container-about .row .col-4 {
   text-align: center;
   margin: 20px auto; }
+
 #container-about .row h2 {
   font-size: 26px; }
+
 #container-about .row p {
   font-size: 14px; }
 
@@ -190,6 +193,10 @@ header nav ul {
   border-radius: 5px;
   color: white;
   font-size: 65px; }
+  .icon:hover {
+    background: #5f9f9f;
+    color: white;
+    transition: 0.5s; }
 
 .icon .fa {
   margin: 15px auto; }
@@ -227,7 +234,7 @@ header nav ul {
 .img {
   position: relative;
   height: 100%;
-  transition: 0.8s; }
+  transition: .8s; }
 
 .pictures div:hover .img {
   -webkit-transform: scale(1.2);
@@ -258,7 +265,7 @@ header nav ul {
 
 .gallery-photo {
   width: 100%;
-  transition: 0.5; }
+  transition: 0.5s; }
 
 #photo-template {
   background: url("http://savespace.cba.pl/Portfolio/img/portfolio.jpg");
@@ -271,5 +278,112 @@ header nav ul {
 
 .faded:hover h2 {
   color: white; }
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background: #5F9F9F; }
+
+.footer {
+  background: #5F9F9F;
+  color: #FFF; }
+
+.foot h2 {
+  display: inline-block;
+  text-align: left;
+  float: left; }
+
+.line {
+  content: "";
+  position: relative;
+  height: 2px;
+  width: 80px;
+  background: #FFF;
+  display: inline-block;
+  float: left;
+  margin-top: 42px;
+  margin-left: 15px; }
+
+#text {
+  display: block;
+  width: 100%; }
+
+.foot1 {
+  text-align: left;
+  padding-right: 20px; }
+
+.foot2 {
+  text-align: left;
+  padding-left: 20px;
+  margin: 5px; }
+
+.footh {
+  padding: 0; }
+  .footh h2 {
+    display: inline-block;
+    text-align: left;
+    float: left;
+    line-height: 0.9em;
+    font-size: 24px; }
+
+.footh1 {
+  padding: 0;
+  margin-top: 15px; }
+
+/* SOCIAL MEDIA */
+.button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #FFF;
+  margin: 4px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: .3s; }
+
+.twitter {
+  color: #4099FF; }
+
+.facebook {
+  color: #3B5998; }
+
+.google {
+  color: #DB5A3C; }
+
+.instagram {
+  color: #5C3D2E; }
+
+.github {
+  color: #4183C4; }
+
+.button:hover {
+  color: white;
+  transform: scale(1.1); }
+
+.button.twitter:hover {
+  background: #4099FF; }
+
+.button.facebook:hover {
+  background: #3B5998; }
+
+.button.google:hover {
+  background: #DB5A3C; }
+
+.button.instagram:hover {
+  background: #5C3D2E; }
+
+.button.github:hover {
+  background: #4183C4; }
+
+.social .row .col-12 .fa {
+  margin: 0; }
+
+.lower-footer {
+  background: #497f7f;
+  color: white;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
